@@ -1,7 +1,13 @@
-#commandbar a, 
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('fonts/fontawesome-webfont.eot?v=4.3.0');
+	src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#commandbar a,
 #logout,
-#activities a,
-.section h2,
 #repos-edit {
 	color: black;
 	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
@@ -14,10 +20,396 @@
 	color: #333;
 }
 
-fieldset {
-	border-color: #f0f0f0;
+/* commandbar */
+#commandbar {
+	background-color: #b43a8d;
+	color: #fff;
+	margin-bottom: 20px;
+	min-height: 50px;
+	padding: 0;
+
+	/* remove padding from sides */
+	margin-left: -8px;
+	margin-right: -8px;
 }
 
+#commandbar span {
+	padding-left: inherit;
+}
+
+#commandbar a {
+	line-height: 50px;
+	min-height: 50px;
+
+	padding-right: 0;
+	padding-left: 1.2em;
+	padding-top: 0;
+	padding-bottom: 0;
+
+	margin-left: 0px;
+
+	border: none;
+	color: #fff;
+	font-size: 100%;
+	opacity: .8;
+
+	/* remove default icons */
+	background: none !important;
+
+	display: inline-block;
+
+}
+#commandbar a:hover {
+	opacity: 1;
+}
+
+#commandbar a:before {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 1.5em;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+	line-height: 0.75em;
+	vertical-align: -15%;
+	padding-right: 0.3em;
+}
+
+/* repository Icon (home page) */
+#commandbar #repository:before,
+#commandbar .repository:before {
+	content: "\f07c";
+}
+
+/* search Icon (home page) */
+#commandbar .search-tool:before {
+	content: "\f002";
+}
+
+/* start Icon */
+#commandbar #start:before {
+	content: "\f015";
+}
+
+/* parent Icon */
+#commandbar #parent:before {
+	content: "\f148";
+}
+
+/* view Icon */
+#commandbar #view:before,
+#commandbar .details:before {
+	content: "\f129";
+}
+
+/* history Icon */
+#commandbar #history:before {
+	content: "\f1da";
+}
+
+/* createfolder Icon */
+#commandbar #createfolder:before {
+	content: "\f07b";
+}
+
+/* addfile Icon */
+#commandbar #addfile:before {
+	content: "\f093";
+}
+
+/* list Icon */
+#commandbar #list:before {
+	content: "\f03a";
+}
+
+/* listrecursive Icon */
+#commandbar #listrecursive:before {
+	content: "\f022";
+}
+
+/* repostree Icon */
+#commandbar #repostree:before {
+	content: "\f0e8";
+}
+
+/* edit Icon */
+#commandbar #edit:before {
+	content: "\f040";
+}
+
+/* back icon*/
+#commandbar #back:before,
+#commandbar .back:before {
+	content: "\f060";
+}
+
+/* listthumbs icon */
+#commandbar .listthumbs:before {
+	content: "\f00b";
+}
+
+#commandbar .pretranslate-report:before {
+	content: "\f1b8";
+}
+
+#commandbar input {
+	border-radius: 4px;
+	border: 10px solid #fff;
+	margin: 6px;
+}
+
+#logo {
+	height: 30px;
+	padding-right: 20px;
+	width: 30px;
+}
+
+/* Headings */
+:not(#intro) > h1,
+:not(#intro) > h2 {
+	padding-left: .5em;
+}
+
+/* Sections */
+#activities.section,
+div.section {
+	border: none;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	margin: 20px 10px;
+}
+
+div.section h2{
+	background-color: #DDEBF9;
+	background-image: none;
+	color: #575756;
+	font-size: 1.3em;
+	line-height: 1.1;
+	margin: -5px;
+	padding: 10px;
+}
+div#activities p {
+	margin-top: 1em;
+}
+
+/* revision */
+.revision {
+	background: #fff;
+}
+
+/* username */
+.username {
+	color: #575756;
+	font-weight: bold;
+	background: none;
+	padding-left: 0;
+}
+.username:before {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+	line-height: 0.75em;
+	vertical-align: -15%;
+	padding-right: 0.5em;
+
+	content: "\f007";
+}
+
+/* note, error and warning */
+.note,
+.error,
+.warning,
+.pretranslate-success,
+.pretranslate-error,
+.pretranslate-aborted {
+	background: none !important;
+	padding-left: 0;
+}
+.note:before,
+.error:before,
+.warning:before,
+.pretranslate-success:before,
+.pretranslate-error:before,
+.pretranslate-aborted:before {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+	line-height: 0.75em;
+	vertical-align: -15%;
+	padding-right: 0.5em;
+}
+.note:before,
+.pretranslate-success:before {
+	content: "\f05a";
+	color:#008bcb; /* brand blue */
+}
+.error:before,
+.pretranslate-error:before {
+	content: "\f06a";
+	color:#cc3300; /* repos-web red*/
+}
+.warning:before,
+.pretranslate-aborted:before {
+	content: "\f071";
+	color:#e6ca97; /* dashboard yellow */
+}
+
+/* locks */
+dd.aboutitem-lock.datetime {
+	background: none;
+	padding-left: 0;
+}
+dd.aboutitem-lock.datetime:before {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+	line-height: 0.75em;
+	vertical-align: -15%;
+	padding-right: 0.5em;
+
+	content: "\f023";
+}
+
+.lock,
+.lock-o,
+.lock-oo,
+.lock-ooo,
+.lock-oooo {
+	background: none;
+	padding-left: 0;
+}
+.lock:before,
+.lock-o:before,
+.lock-oo:before,
+.lock-ooo:before,
+.lock-oooo:before {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 1.1em;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+	line-height: 0.75em;
+	vertical-align: -15%;
+	padding-right: 0.5em;
+
+	content: "\f023";
+}
+/* without this, the paragraph breaks to new line */
+.lock > p {
+	display: inline-block;
+}
+
+/* locks with severity levels */
+.lock-o:before {
+	color: #cadd9a;
+}
+.lock-oo:before {
+	color: #e6e697;
+}
+.lock-ooo:before {
+	color: #e6ca97;
+}
+.lock-oooo:before {
+	color: #e69797;
+}
+
+
+/* Fieldset */
+fieldset {
+	border: 2px solid #008BCB;
+}
 fieldset legend {
-        color: #333;
+	color: #575756;
+}
+fieldset input {
+	margin-top: 0;
+}
+fieldset label {
+	/* prevents the submit button to get on the left */
+	padding-top: 1px;
+}
+
+/* Footer */
+#footer {
+	bottom: 0;
+	margin: 0 -8px;
+	position: fixed;
+	z-index: 20;
+}
+#footer > span:first-child {
+	margin-left: 10px;
+}
+
+#visualizationOverlay {
+	margin: 10px;
+	min-height: 60%;
+	bottom: inherit !important;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	border: none !important;
+}
+#visualizationOverlay .repossearch-dialog-title {
+	width: inherit !important;
+	background-color: #DDEBF9 !important;
+	background-image: none;
+	color: #575756;
+	font-size: 1.3em;
+	line-height: 1.1;
+	padding: 10px;
+}
+#visualizationOverlay > div {
+	overflow: hidden !important;
+	padding: 10px;
+	width: inherit !important;
+	height: inherit !important;
+}
+
+
+
+/* Start Page */
+/* center */
+/* trying to be as specific as possible to avoid propagation to other pages */
+#intro > h1 > img{
+	display: block;
+	margin: auto;
+}
+#startbuttons,
+#startconfig {
+	display: inline-block;
+	margin: 0 auto;
+
+	/* !important is required, they have the width defined inline */
+	width: 40% !important;
+}
+#startbuttons {
+	margin-left: 10%;
+}
+/* yes, the 2 ids in the selectors are required,
+   I only want to affect the start page... */
+#startbuttons #commandbar {
+	background-color: #F0F0F0;
+	border: none;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	margin: 20px 10px;
+
+}
+#startbuttons #commandbar a {
+	color: #000;
+}
+#startbuttons input {
+	margin-left: 10%;
+	width: 60%;
 }
