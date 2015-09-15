@@ -353,6 +353,14 @@ fieldset label {
 #footer > span:first-child {
 	margin-left: 10px;
 }
+/* fix of issue simonsoft/rweb-branding#1 */
+/* due to the technical constraints, had to hardcode the previous siblings */
+ul.results,
+.log.xml p:last-of-type,
+.readme.readme-bottom {
+	margin-bottom: 25px;
+}
+
 
 #visualizationOverlay {
 	margin: 10px;
