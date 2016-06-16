@@ -421,3 +421,8 @@ ul.results,
 	margin-left: 10%;
 	width: 60%;
 }
+
+/* suppress IE clear X */
+#repossearch-input::-ms-clear {
+	display: none;
+}
