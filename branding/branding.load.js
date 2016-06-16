@@ -13,7 +13,6 @@ $(document).ready(function() {
 		.attr('src', '/repos-plugins/branding/PDS_box.png')
 		.attr('alt', 'Simonsoft icon')
 		.attr('title', 'Simonsoft CMS with Repos Web')
-		.attr('width','18').attr('height','18')
 		.css({cursor: 'pointer'}).click(function() { window.location.href = '/'; });
 });
 // Welcome page
@@ -26,5 +25,3 @@ Repos.service('home/', function() {
 		// Startpage header style
 		.css({fontSize:'54px', lineHeight:'54px',fontWeight:'bold',letterSpacing:'.15em',color:'#e0e0e0'});
 });
-
-
