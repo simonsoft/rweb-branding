@@ -162,7 +162,7 @@
 #logo {
 	height: 30px;
 	padding-right: 20px;
-	width: 30px;
+	width: auto;
 }
 
 /* Headings */
