@@ -353,6 +353,18 @@ fieldset label {
 #footer > span:first-child {
 	margin-left: 10px;
 }
+
+/* Hides orignal legal text*/
+.legal {
+ visibility: hidden;
+}
+
+/*Inserts text in legal*/
+.legal::after {
+ content: 'Powered by SimonsoftCMS';
+ visibility: visible;
+}
+
 /* fix of issue simonsoft/rweb-branding#1 */
 /* due to the technical constraints, had to hardcode the previous siblings */
 ul.results,
