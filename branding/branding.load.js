@@ -4,22 +4,22 @@
  */
 
 // Customize title, alternative to changing in html templates and xsl files
-document.title = document.title.replace('repos:', 'Simonsoft CMS |');
+document.title = document.title.replace('repos:', 'Logos CMS |');
 
 // Dynamically replace logo src, alternative to rewrite rules
 // Commandbar logo where present
 $(document).ready(function() {
 	$('#commandbar #logo')
-		.attr('src', '/repos-plugins/branding/PDS_box.png')
-		.attr('alt', 'Simonsoft icon')
-		.attr('title', 'Simonsoft CMS with Repos Web')
+		.attr('src', '/repos-plugins/branding/Logos.png')
+		.attr('alt', 'Logos CMS')
+		.attr('title', 'Powered by SimonsoftCMS')
 		.css({cursor: 'pointer'}).click(function() { window.location.href = '/'; });
 });
 // Welcome page
 Repos.service('home/', function() {
 	$('#intro h1').empty()
 		// Startpage logo
-		.append('<img alt="Simonsoft/PDS" width="517" height="40" border="0" align="baseline" src="/repos-plugins/branding/SimonSoftCMS.png"/>')
+		.append('<img alt="Logos CMS - Powered by SimonsoftCMS" height="40" border="0" align="baseline" src="/repos-plugins/branding/LogosCMS.png"/>')
 		// Startpage header text, for logos without CSM
 		//.append('&nbsp;CMS')
 		// Startpage header style
