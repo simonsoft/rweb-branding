@@ -33,8 +33,13 @@
 	margin-right: -8px;
 }
 
+#commandbar .right {
+	display: inline-flex;
+}
+
 #commandbar span {
 	padding-left: inherit;
+	padding-top: 0;
 }
 
 #commandbar a {
@@ -162,6 +167,7 @@
 #logo {
 	height: 30px;
 	padding-right: 20px;
+	padding-top: 7px;
 	width: auto;
 }
 
