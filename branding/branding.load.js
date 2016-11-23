@@ -19,7 +19,7 @@ $(document).ready(function() {
 Repos.service('home/', function() {
 	$('#intro h1').empty()
 		// Startpage logo
-		.append('<img alt="Logos CMS - Powered by SimonsoftCMS" height="40" border="0" align="baseline" src="/repos-plugins/branding/LogosCMS.png"/>')
+		.append('<img alt="Logos CMS - Powered by SimonsoftCMS" height="100" border="0" align="baseline" src="/repos-plugins/branding/LogosCMS.png"/>')
 		// Startpage header text, for logos without CSM
 		//.append('&nbsp;CMS')
 		// Startpage header style
