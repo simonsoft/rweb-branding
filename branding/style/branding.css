@@ -149,6 +149,15 @@
 	content: "\f060";
 }
 
+#commandbar #path-filter:before {
+	content: "\f14a";
+	cursor: pointer;
+}
+
+#commandbar #path-filter.disabled:before {
+	content: "\f0c8";
+}
+
 /* listthumbs icon */
 #commandbar .listthumbs:before {
 	content: "\f00b";
