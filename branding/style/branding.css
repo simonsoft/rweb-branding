@@ -93,7 +93,8 @@
 }
 
 /* start Icon */
-#commandbar #start:before {
+#commandbar #start:before,
+#commandbar .start:before {
 	content: "\f015";
 }
 
