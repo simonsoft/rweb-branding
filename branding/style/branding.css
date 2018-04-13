@@ -353,6 +353,7 @@ dd.aboutitem-lock.datetime:before {
 /* Fieldset */
 fieldset {
 	border: 2px solid #008BCB;
+	margin-bottom: 3em;
 }
 fieldset legend {
 	color: #575756;
