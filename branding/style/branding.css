@@ -160,7 +160,7 @@
 }
 
 @media only screen and (max-width: 1100px) {
-    #commandbar #path-filter {
+    #commandbar #path-filter.media-max-width-yes {
         display: none;
     }
 }
