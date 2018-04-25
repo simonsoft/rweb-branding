@@ -4,7 +4,7 @@
  */
 
 // Customize title, alternative to changing in html templates and xsl files
-document.title = document.title.replace('repos:', 'Simonsoft CMS |');
+document.title = document.title.replace('repos:', 'SimonsoftCMS |');
 
 // Dynamically replace logo src, alternative to rewrite rules
 // Commandbar logo where present
