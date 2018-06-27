@@ -420,7 +420,9 @@ ul.results,
 	height: inherit !important;
 }
 
-
+body.category-release #visualizeTimeline {
+	display: none;
+}
 
 /* Start Page */
 /* center */
