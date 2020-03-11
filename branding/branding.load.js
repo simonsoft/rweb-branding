@@ -10,7 +10,7 @@ document.title = document.title.replace('repos:', 'SimonsoftCMS |');
 // Commandbar logo where present
 $(document).ready(function() {
 	$('#commandbar #logo')
-		.attr('src', '/repos-plugins/branding/PDS_box.png')
+		.attr('src', '/repos-plugins/branding/S-logo_grey.svg')
 		.attr('alt', 'Simonsoft icon')
 		.attr('title', 'Simonsoft CMS with Repos Web')
 		.css({cursor: 'pointer'}).click(function() { window.location.href = '/'; });
