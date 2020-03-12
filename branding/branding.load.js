@@ -10,7 +10,7 @@ document.title = document.title.replace('repos:', 'SimonsoftCMS |');
 // Commandbar logo where present
 $(document).ready(function() {
 	$('#commandbar #logo')
-		.attr('src', '/repos-plugins/branding/PDS_box.png')
+		.attr('src', '/repos-plugins/branding/S-logo_grey.svg')
 		.attr('alt', 'Simonsoft icon')
 		.attr('title', 'Simonsoft CMS with Repos Web')
 		.css({cursor: 'pointer'}).click(function() { window.location.href = '/'; });
@@ -19,7 +19,7 @@ $(document).ready(function() {
 Repos.service('home/', function() {
 	$('#intro h1').empty()
 		// Startpage logo
-		.append('<img alt="Simonsoft/PDS" width="517" height="40" border="0" align="baseline" src="/repos-plugins/branding/SimonSoftCMS.png"/>')
+		.append('<img alt="Simonsoft/PDS" width="517" height="40" border="0" align="baseline" src="/repos-plugins/branding/SimonsoftCMS_blu.svg"/>')
 		// Startpage header text, for logos without CSM
 		//.append('&nbsp;CMS')
 		// Startpage header style
