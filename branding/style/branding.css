@@ -184,13 +184,16 @@
 	vertical-align: unset;
 }
 
+#commandbar img {
+	margin: 0;
+	vertical-align: unset;
+}
+
 #logo {
 	height: 32px;
 	padding-right: 16px;
 	padding-top: 9px;
 	width: auto;
-	margin: 0;
-	vertical-align: unset;
 }
 
 /* Headings */
