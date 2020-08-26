@@ -195,6 +195,96 @@
 	content: "\f24d";
 }
 
+/* Action Icons */
+/* common */
+#activities h3 {
+	padding-bottom: 5px;
+}
+
+#activities h3 a {
+	padding: 8px 0px 8px 40px;
+}
+
+/* open in editor */
+#activities #open_in_editor {
+	background-image: url('/branding/commands/open_in_editor.svg') !important;
+}
+
+/* preview */
+#activities #preview {
+	background-image: url('/branding/commands/preview.svg') !important;
+}
+
+/* prepare release */
+#activities #prepare_release {
+	background-image: url('/branding/commands/prepare_release.svg') !important;
+}
+
+/* view */
+#activities #open {
+	background-image: url('/branding/commands/open.svg') !important;
+}
+
+/* download */
+#activities #download {
+	background-image: url('/branding/commands/download.svg') !important;
+}
+
+/* view in repos */
+#activities #viewfile {
+	/*background-image: url('/branding/commands/viewfile.svg') !important;*/
+}
+
+/* view in history */
+#activities #history {
+	background-image: url('/branding/commands/history.svg') !important;
+}
+
+/* edit contents */
+#activities #editfile {
+	background-image: url('/branding/commands/editfile.svg') !important;
+}
+
+/* edit properties */
+#activities #propedit {
+	background-image: url('/branding/commands/propedit.svg') !important;
+}
+
+/* lock */
+#activities #lock {
+	background-image: url('/branding/commands/lock.svg') !important;
+}
+
+/* upload new version */
+#activities #upload {
+	/*background-image: url('/branding/commands/upload.svg') !important;*/
+}
+
+/* copy | move | rename */
+#activities #copy {
+	background-image: url('/branding/commands/copy.svg') !important;
+}
+
+/* delete */
+#activities #delete {
+	background-image: url('/branding/commands/delete.svg') !important;
+}
+
+/* use the url */
+#activities #useurl {
+	background-image: url('/branding/commands/useurl.svg') !important;
+}
+
+/* download with lock */
+#activities #download_lock {
+	background-image: url('/branding/commands/download_lock.svg') !important;
+}
+
+/* download, modify, upload */
+#activities #download_upload {
+	background-image: url('/branding/commands/download_upload.svg') !important;
+}
+
 #commandbar input {
 	border-radius: 4px;
 	border: 6px solid #fff;
