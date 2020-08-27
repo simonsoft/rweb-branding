@@ -285,6 +285,61 @@
 	background-image: url('/branding/commands/download_upload.svg') !important;
 }
 
+/* export publications */
+#activities #export_publications {
+	/*background-image: url('/branding/commands/export_publications.svg') !important;*/
+}
+
+/* start review */
+#activities #start_review {
+	background-image: url('/branding/commands/start_review.svg') !important;
+}
+
+/* close review */
+#activities #close_review {
+	/*background-image: url('/branding/commands/close_review.svg') !important;*/
+}
+
+/* prepare translation */
+#activities #prepare_translation {
+	/*background-image: url('/branding/commands/prepare_translation.svg') !important;*/
+}
+
+/* validate release */
+#activities #validate_release {
+	/*background-image: url('/branding/commands/validate_release.svg') !important;*/
+}
+
+/* revise graphic */
+#activities #revise_graphic {
+	/*background-image: url('/branding/commands/revise_graphic.svg') !important;*/
+}
+
+/* graphics baseline */
+#activities #graphics_baseline {
+	background-image: url('/branding/commands/graphics_baseline.svg') !important;
+}
+
+/* export translations */
+#activities #export_translations {
+	/*background-image: url('/branding/commands/export_translations.svg') !important;*/
+}
+
+/* batch pretranslate */
+#activities #batch_pretranslate {
+	/*background-image: url('/branding/commands/batch_pretranslate.svg') !important;*/
+}
+
+/* pretranslate */
+#activities #pretranslate {
+	/*background-image: url('/branding/commands/pretranslate.svg') !important;*/
+}
+
+/* pretranslate report */
+#activities #pretranslate_report {
+	/*background-image: url('/branding/commands/pretranslate_report.svg') !important;*/
+}
+
 #commandbar input {
 	border-radius: 4px;
 	border: 6px solid #fff;
