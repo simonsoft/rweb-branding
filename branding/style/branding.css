@@ -220,6 +220,11 @@
 	background-image: url('/branding/commands/prepare_release.svg') !important;
 }
 
+/* list contents */
+#activities #list {
+	/*background-image: url('/branding/commands/list.svg') !important;*/
+}
+
 /* view */
 #activities.column-activities #btn_open {
 	display: none;
@@ -259,6 +264,11 @@
 /* lock */
 #activities #lock {
 	background-image: url('/branding/commands/lock.svg') !important;
+}
+
+/* unlock */
+#activities #unlock {
+	background-image: url('/branding/commands/unlock.svg') !important;
 }
 
 /* upload new version */
