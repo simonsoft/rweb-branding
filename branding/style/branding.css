@@ -221,6 +221,9 @@
 }
 
 /* view */
+#activities #btn_open {
+	display: none;
+}
 #activities #open {
 	background-image: url('/branding/commands/open.svg') !important;
 }
@@ -241,6 +244,9 @@
 }
 
 /* edit contents */
+#activities #btn_editfile {
+	display: none;
+}
 #activities #editfile {
 	background-image: url('/branding/commands/editfile.svg') !important;
 }
@@ -271,6 +277,9 @@
 }
 
 /* use the url */
+#activities #btn_useurl {
+	display: none;
+}
 #activities #useurl {
 	background-image: url('/branding/commands/useurl.svg') !important;
 }
