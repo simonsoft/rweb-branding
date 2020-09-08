@@ -212,7 +212,7 @@
 
 /* insert in editor */
 #activities #insert_in_editor {
-	/*background-image: url('/branding/commands/insert_in_editor.svg') !important;*/
+	background-image: url('/branding/commands/insert_in_editor.svg') !important;
 }
 
 /* preview */
@@ -245,7 +245,7 @@
 
 /* view in repos */
 #activities #viewfile {
-	/*background-image: url('/branding/commands/viewfile.svg') !important;*/
+	background-image: url('/branding/commands/viewfile.svg') !important;
 }
 
 /* view in history */
@@ -321,7 +321,7 @@
 
 /* close review */
 #activities #close_review {
-	/*background-image: url('/branding/commands/close_review.svg') !important;*/
+	background-image: url('/branding/commands/close_review.svg') !important;
 }
 
 /* prepare translation */
@@ -336,22 +336,12 @@
 
 /* revise graphic */
 #activities #revise_graphic {
-	/*background-image: url('/branding/commands/revise_graphic.svg') !important;*/
+	background-image: url('/branding/commands/revise_graphic.svg') !important;
 }
 
 /* graphics baseline */
 #activities #graphics_baseline {
 	background-image: url('/branding/commands/graphics_baseline.svg') !important;
-}
-
-/* export translations */
-#activities #export_translations {
-	/*background-image: url('/branding/commands/export_translations.svg') !important;*/
-}
-
-/* batch pretranslate */
-#activities #batch_pretranslate {
-	/*background-image: url('/branding/commands/batch_pretranslate.svg') !important;*/
 }
 
 /* pretranslate */
