@@ -205,6 +205,10 @@
 	padding: 8px 0px 8px 40px;
 }
 
+#activities.column-activities {
+	padding-top: 13px;
+}
+
 /* open in editor */
 #activities #open_in_editor {
 	background-image: url('/branding/commands/open_in_editor.svg') !important;
