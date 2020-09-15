@@ -335,7 +335,7 @@
 
 /* validate release */
 #activities #validate_release {
-	/*background-image: url('/branding/commands/validate_release.svg') !important;*/
+	background-image: url('/branding/commands/validate_release.svg') !important;
 }
 
 /* revise graphic */
