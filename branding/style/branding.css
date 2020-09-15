@@ -229,6 +229,11 @@
 	background-image: url('/branding/commands/prepare_release.svg') !important;
 }
 
+/* view current */
+#activities #current {
+	/* background-image: url('/branding/commands/current.svg') !important; */
+}
+
 /* list contents */
 #activities #list {
 	background-image: url('/branding/commands/list.svg') !important;
@@ -280,6 +285,11 @@
 /* view in history */
 #activities #history {
 	background-image: url('/branding/commands/history.svg') !important;
+}
+
+/* copy historical */
+#activities #copyhistorical {
+	background-image: url('/branding/commands/copyhistorical.svg') !important;
 }
 
 /* edit contents */
