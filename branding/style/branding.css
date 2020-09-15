@@ -247,9 +247,34 @@
 	background-image: url('/branding/commands/download.svg') !important;
 }
 
-/* view in repos */
+/* view in repos (view file) */
+/* first we rename view in repos to view file */
+#activities #btn_viewfile {
+	height: 27px;
+	margin-top: 7px;
+}
+
 #activities #viewfile {
-	background-image: url('/branding/commands/viewfile.svg') !important;
+	visibility: hidden;
+}
+
+#activities #viewfile::before {
+	display: inline-block;
+	position: relative;
+	content: "View file";
+	visibility: visible;
+	height: 25px;
+	padding-top: 7px;
+	padding-left: 40px;
+	margin-left: -40px;
+	padding-bottom: 10px;
+	background-size: 35px;
+	background-repeat: no-repeat;
+	background-image: url('/branding/commands/viewfile.svg');
+}
+
+#activities #viewfile:hover::before {
+	text-decoration: underline;
 }
 
 /* view in history */
