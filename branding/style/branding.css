@@ -175,6 +175,14 @@
 	content: "\f1b8";
 }
 
+#commandbar .publishstatus:before {
+	content: "\f0ae";
+}
+
+#commandbar .pretranslatestatus:before {
+	content: "\f0ae";
+}
+
 .translationproject-link:before {
 	padding-left: 0.4em;
 	vertical-align: -10%;
