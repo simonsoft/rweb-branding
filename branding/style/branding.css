@@ -231,7 +231,7 @@
 
 /* view current */
 #activities #current {
-	/* background-image: url('/branding/commands/current.svg') !important; */
+	background-image: url('/branding/commands/current.svg') !important;
 }
 
 /* list contents */
