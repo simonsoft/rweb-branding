@@ -195,6 +195,204 @@
 	content: "\f24d";
 }
 
+/* Action Icons */
+/* common */
+#activities h3 {
+	padding-bottom: 5px;
+}
+
+#activities h3 a {
+	padding: 8px 0px 8px 40px;
+}
+
+#activities.column-activities {
+	padding-top: 13px;
+}
+
+/* open in editor */
+#activities #open_in_editor {
+	background-image: url('/branding/commands/open_in_editor.svg') !important;
+}
+
+/* insert in editor */
+#activities #insert_in_editor {
+	background-image: url('/branding/commands/insert_in_editor.svg') !important;
+}
+
+/* preview */
+#activities #preview {
+	background-image: url('/branding/commands/preview.svg') !important;
+}
+
+/* prepare release */
+#activities #prepare_release {
+	background-image: url('/branding/commands/prepare_release.svg') !important;
+}
+
+/* view current */
+#activities #current {
+	background-image: url('/branding/commands/current.svg') !important;
+}
+
+/* list contents */
+#activities #list {
+	background-image: url('/branding/commands/list.svg') !important;
+}
+
+/* view */
+#activities.column-activities #btn_open {
+	display: none;
+}
+#activities #open {
+	background-image: url('/branding/commands/open.svg') !important;
+}
+
+/* download */
+#activities #download {
+	background-image: url('/branding/commands/download.svg') !important;
+}
+
+/* view in repos (view file) */
+/* first we rename view in repos to view file */
+#activities #btn_viewfile {
+	height: 27px;
+	margin-top: 7px;
+}
+
+#activities #viewfile {
+	visibility: hidden;
+}
+
+#activities #viewfile::before {
+	display: inline-block;
+	position: relative;
+	content: "View file";
+	visibility: visible;
+	height: 25px;
+	padding-top: 7px;
+	padding-left: 40px;
+	margin-left: -40px;
+	padding-bottom: 10px;
+	background-size: 35px;
+	background-repeat: no-repeat;
+	background-image: url('/branding/commands/viewfile.svg');
+}
+
+#activities #viewfile:hover::before {
+	text-decoration: underline;
+}
+
+/* view in history */
+#activities #history {
+	background-image: url('/branding/commands/history.svg') !important;
+}
+
+/* copy historical */
+#activities #copyhistorical {
+	background-image: url('/branding/commands/copyhistorical.svg') !important;
+}
+
+/* edit contents */
+#activities.column-activities #btn_editfile {
+	display: none;
+}
+#activities #editfile {
+	background-image: url('/branding/commands/editfile.svg') !important;
+}
+
+/* edit properties */
+#activities #propedit {
+	background-image: url('/branding/commands/propedit.svg') !important;
+}
+
+/* lock */
+#activities #lock {
+	background-image: url('/branding/commands/lock.svg') !important;
+}
+
+/* unlock */
+#activities #unlock {
+	background-image: url('/branding/commands/unlock.svg') !important;
+}
+
+/* upload new version */
+#activities #upload {
+	background-image: url('/branding/commands/upload.svg') !important;
+}
+
+/* copy | move | rename */
+#activities #copy {
+	background-image: url('/branding/commands/copy.svg') !important;
+}
+
+/* delete */
+#activities #delete {
+	background-image: url('/branding/commands/delete.svg') !important;
+}
+
+/* use the url */
+#activities.column-activities #btn_useurl {
+	display: none;
+}
+#activities #useurl {
+	background-image: url('/branding/commands/useurl.svg') !important;
+}
+
+/* download with lock */
+#activities #download_lock {
+	background-image: url('/branding/commands/download_lock.svg') !important;
+}
+
+/* download, modify, upload */
+#activities #download_upload {
+	background-image: url('/branding/commands/download_upload.svg') !important;
+}
+
+/* export publications */
+#activities #export_publications {
+	background-image: url('/branding/commands/export_publications.svg') !important;
+}
+
+/* start review */
+#activities #start_review {
+	background-image: url('/branding/commands/start_review.svg') !important;
+}
+
+/* close review */
+#activities #close_review {
+	background-image: url('/branding/commands/close_review.svg') !important;
+}
+
+/* prepare translation */
+#activities #prepare_translation {
+	background-image: url('/branding/commands/prepare_translation.svg') !important;
+}
+
+/* validate release */
+#activities #validate_release {
+	background-image: url('/branding/commands/validate_release.svg') !important;
+}
+
+/* revise graphic */
+#activities #revise_graphic {
+	background-image: url('/branding/commands/revise_graphic.svg') !important;
+}
+
+/* graphics baseline */
+#activities #graphics_baseline {
+	background-image: url('/branding/commands/graphics_baseline.svg') !important;
+}
+
+/* pretranslate */
+#activities #pretranslate {
+	background-image: url('/branding/commands/pretranslate.svg') !important;
+}
+
+/* pretranslate report */
+#activities #pretranslate_report {
+	background-image: url('/branding/commands/pretranslate_report.svg') !important;
+}
+
 #commandbar input {
 	border-radius: 4px;
 	border: 6px solid #fff;
@@ -491,4 +689,11 @@ body.category-release #visualizeTimeline {
 /* suppress IE clear X */
 #repossearch-input::-ms-clear {
 	display: none;
+}
+
+/* preview image placeholder */
+#preview img.placeholder {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0' y='0' width='64' height='64' viewBox='0, 0, 64, 64'%3E%3Cpath d='M21.333,21.333 Q21.333,24 19.467,25.867 Q17.6,27.733 14.933,27.733 Q12.267,27.733 10.4,25.867 Q8.533,24 8.533,21.333 Q8.533,18.667 10.4,16.8 Q12.267,14.933 14.933,14.933 Q17.6,14.933 19.467,16.8 Q21.333,18.667 21.333,21.333 z M55.467,34.133 L55.467,49.067 L8.533,49.067 L8.533,42.667 L19.2,32 L24.533,37.333 L41.6,20.267 z M58.667,10.667 L5.333,10.667 Q4.9,10.667 4.583,10.983 Q4.267,11.3 4.267,11.733 L4.267,52.267 Q4.267,52.7 4.583,53.017 Q4.9,53.333 5.333,53.333 L58.667,53.333 Q59.1,53.333 59.417,53.017 Q59.733,52.7 59.733,52.267 L59.733,11.733 Q59.733,11.3 59.417,10.983 Q59.1,10.667 58.667,10.667 z M64,11.733 L64,52.267 Q64,54.467 62.433,56.033 Q60.867,57.6 58.667,57.6 L5.333,57.6 Q3.133,57.6 1.567,56.033 Q0,54.467 0,52.267 L0,11.733 Q0,9.533 1.567,7.967 Q3.133,6.4 5.333,6.4 L58.667,6.4 Q60.867,6.4 62.433,7.967 Q64,9.533 64,11.733 z' fill='%23000000'/%3E%3C/svg%3E%0A");
 }
