@@ -611,7 +611,7 @@ fieldset label {
 
 /*Inserts text in legal*/
 .legal::after {
- content: 'Powered by SimonsoftCMS';
+ content: 'Simonsoft CMS';
  visibility: visible;
 }
 
