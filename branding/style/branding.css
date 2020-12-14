@@ -691,6 +691,12 @@ body.category-release #visualizeTimeline {
 	display: none;
 }
 
+/* Details / Edit page thumbnail, limit size when SVG might be returned in original form. */
+#intro img.thumbnail {
+	max-width: 150px;
+	max-height: 150px;
+}
+
 /* preview image placeholder */
 #preview img.placeholder {
 	background-size: contain;
