@@ -703,3 +703,37 @@ body.category-release #visualizeTimeline {
 	background-repeat: no-repeat;
 	background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0' y='0' width='64' height='64' viewBox='0, 0, 64, 64'%3E%3Cpath d='M21.333,21.333 Q21.333,24 19.467,25.867 Q17.6,27.733 14.933,27.733 Q12.267,27.733 10.4,25.867 Q8.533,24 8.533,21.333 Q8.533,18.667 10.4,16.8 Q12.267,14.933 14.933,14.933 Q17.6,14.933 19.467,16.8 Q21.333,18.667 21.333,21.333 z M55.467,34.133 L55.467,49.067 L8.533,49.067 L8.533,42.667 L19.2,32 L24.533,37.333 L41.6,20.267 z M58.667,10.667 L5.333,10.667 Q4.9,10.667 4.583,10.983 Q4.267,11.3 4.267,11.733 L4.267,52.267 Q4.267,52.7 4.583,53.017 Q4.9,53.333 5.333,53.333 L58.667,53.333 Q59.1,53.333 59.417,53.017 Q59.733,52.7 59.733,52.267 L59.733,11.733 Q59.733,11.3 59.417,10.983 Q59.1,10.667 58.667,10.667 z M64,11.733 L64,52.267 Q64,54.467 62.433,56.033 Q60.867,57.6 58.667,57.6 L5.333,57.6 Q3.133,57.6 1.567,56.033 Q0,54.467 0,52.267 L0,11.733 Q0,9.533 1.567,7.967 Q3.133,6.4 5.333,6.4 L58.667,6.4 Q60.867,6.4 62.433,7.967 Q64,9.533 64,11.733 z' fill='%23000000'/%3E%3C/svg%3E%0A");
 }
+
+/* hierarchical styling for the release of section */
+#masterslave_Release_of li {
+	list-style: none;
+	position: relative;
+}
+#masterslave_Release_of li:first-child::before {
+	content: '';
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	display: inline-block;
+	background: #000000;
+	margin-bottom: 2px;
+	margin-left: -12px;
+	margin-right: 0.4em;
+}
+#masterslave_Release_of li:nth-child(n+2) {
+	margin-left: 10px;
+}
+#masterslave_Release_of li:nth-child(n+2)::before {
+	content: "";
+	top: -6px;
+	left: -20px;
+	width: 1.0em;
+	height: 1.1em;
+	position: absolute;
+	border-left-color: black;
+	border-left-style: dotted;
+	border-left-width: 1px;
+	border-bottom-color: black;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+}
