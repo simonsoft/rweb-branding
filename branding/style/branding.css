@@ -175,6 +175,10 @@
 	content: "\f1b8";
 }
 
+#commandbar .graphictranslated-report:before {
+	content: "\f0ae";
+}
+
 #commandbar .publishstatus:before {
 	content: "\f0ae";
 }
