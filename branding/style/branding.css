@@ -435,7 +435,7 @@ div.section {
 div.section h2{
 	background-color: #d6d7d2;
 	background-image: none;
-	color: #575756;
+	color: #333333;
 	font-size: 1.3em;
 	letter-spacing: 0.08em;
 	line-height: 1.1;
@@ -640,8 +640,9 @@ ul.results,
 	width: inherit !important;
 	background-color: #d6d7d2 !important;
 	background-image: none;
-	color: #575756;
+	color: #333333;
 	font-size: 1.3em;
+  letter-spacing: 0.08em;
 	line-height: 1.1;
 	padding: 10px;
 }
