@@ -451,7 +451,8 @@ div.column-links div.section div.contents {
 }
 
 div.column-links #masterslave_Released_in.empty,
-div.column-links #wherereferenced {
+div.column-links #wherereferenced.empty,
+div.column-links #referencing.empty {
 	display: none;
 }
 
