@@ -433,14 +433,13 @@ div.section {
 }
 
 div.column-links div.section div.contents {
+	max-height: 40vh;
 	overflow-y: auto;
-	overflow-x: hidden;
 	margin-top: 5px;
 	margin-left: -5px;
 	margin-right: -5px;
 	padding-left: 5px;
 	padding-right: 5px;
-	max-height: 50vh;
 }
 
 div.section h2 {
