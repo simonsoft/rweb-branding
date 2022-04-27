@@ -432,6 +432,10 @@ div.section {
 	margin: 20px 10px;
 }
 
+div.section {
+	display: block;
+}
+
 div.column-info {
     max-width: 45vw;
 }
@@ -446,6 +450,11 @@ div.column-links div.section div.contents {
 	padding-right: 5px;
 }
 
+div.column-links #masterslave_Released_in.empty,
+div.column-links #wherereferenced {
+	display: none;
+}
+
 div.section h2 {
 	background-color: #d6d7d2;
 	background-image: none;
@@ -456,6 +465,7 @@ div.section h2 {
 	margin: -5px;
 	padding: 10px;
 }
+
 div#activities p {
 	margin-top: 1em;
 }
