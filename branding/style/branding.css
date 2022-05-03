@@ -438,6 +438,7 @@ div.section {
 
 div.column-info {
     max-width: 45vw;
+	word-wrap: break-word;
 }
 
 div.column-links div.section div.contents {
