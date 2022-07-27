@@ -104,6 +104,17 @@
 	content: "\f148";
 }
 
+/* usermanual Icon (currently only visible on Collection of Repositories page)*/
+body.static #commandbar #usermanual {
+	display: inline;
+}
+#commandbar #usermanual:before {
+	content: "\f059";
+}
+#commandbar #usermanual {
+	display: none;
+}
+
 /* view Icon */
 #commandbar #view:before,
 #commandbar .details:before {
