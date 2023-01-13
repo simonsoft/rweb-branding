@@ -665,6 +665,11 @@ ul.results,
 	margin-bottom: 50px;
 }
 
+/* fix footer on rweb result page */
+body p:has(a#return) {
+  margin-bottom: 50px;
+}
+
 
 #visualizationOverlay {
 	margin: 10px;
