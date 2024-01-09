@@ -224,6 +224,16 @@ body.static #commandbar #usermanual {
 	padding-top: 13px;
 }
 
+/* open in arbortext */
+#activities #open_in_arbortext {
+	background-image: url('/branding/commands/open_in_editor.svg') !important;
+}
+
+/* insert in arbortext */
+#activities #insert_in_arbortext {
+	background-image: url('/branding/commands/insert_in_editor.svg') !important;
+}
+
 /* open in editor */
 #activities #open_in_editor {
 	background-image: url('/branding/commands/open_in_editor.svg') !important;
