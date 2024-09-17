@@ -331,11 +331,17 @@ body.static #commandbar #usermanual {
 }
 
 /* lock */
+#activities.column-activities #btn_lock {
+	display: none;
+}
 #activities #lock {
 	background-image: url('/branding/commands/lock.svg') !important;
 }
 
 /* unlock */
+#activities.column-activities #btn_unlock {
+	display: none;
+}
 #activities #unlock {
 	background-image: url('/branding/commands/unlock.svg') !important;
 }
