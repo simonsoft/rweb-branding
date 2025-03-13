@@ -653,12 +653,14 @@ fieldset label {
 
 /* Fix for issues in the webapp Edit Properties dialog in CMS 5.2 (missing class) */
 fieldset > code > div > fieldset > div > label {
-    overflow: hidden;
+    display: inline-block;
+	float: none;
+	overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
 	width: auto;
 	max-width: 20em;
-	float: auto;
+	max-width: 12em;
 	text-align: left;
 	padding-left: 0.5em;
 }
