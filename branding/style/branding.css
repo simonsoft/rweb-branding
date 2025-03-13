@@ -660,7 +660,7 @@ fieldset > code > div > fieldset > div > label {
     text-overflow: ellipsis;
 	width: auto;
 	max-width: 20em;
-	max-width: 12em;
+	min-width: 14em;
 	text-align: left;
 	padding-left: 0.5em;
 }
