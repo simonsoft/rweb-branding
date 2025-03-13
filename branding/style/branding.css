@@ -656,6 +656,11 @@ fieldset > code > div > fieldset > div > label {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+	width: auto;
+	max-width: 20em;
+	float: auto;
+	text-align: left;
+	padding-left: 0.5em;
 }
 fieldset > code > div > fieldset {
     max-height: 60vh;
