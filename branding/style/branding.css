@@ -651,6 +651,17 @@ fieldset label {
 	padding-top: 1px;
 }
 
+/* Fix for issues in the webapp Edit Properties dialog in CMS 5.2 (missing class) */
+fieldset > code > div > fieldset > div > label {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+fieldset > code > div > fieldset {
+    max-height: 60vh;
+    overflow: scroll;
+}
+
 /* Footer */
 #footer {
 	bottom: 0;
