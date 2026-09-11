@@ -198,6 +198,10 @@ body.static #commandbar #usermanual {
 	content: "\f0ae";
 }
 
+#commandbar .importtranslation:before {
+	content: "\f093";
+}
+
 .translationproject-link:before {
 	padding-left: 0.4em;
 	vertical-align: -10%;
